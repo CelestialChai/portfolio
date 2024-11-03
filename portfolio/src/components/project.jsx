@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/project.css';
+
 
 const Project = ({ title, image, deployedLink, githubLink }) => (
   <div className="project">

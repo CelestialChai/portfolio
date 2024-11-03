@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './navigation';
+import '../styles/header.css';
 
 const Header = () => (
   <header>

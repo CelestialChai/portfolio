@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/resume.css';
 
 const Resume = () => {
   const skills = ['JavaScript', 'React', 'HTML', 'CSS', 'Node.js', 'Git', 'Responsive Design', 'REST APIs'];

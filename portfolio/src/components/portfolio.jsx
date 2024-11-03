@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from './project';
+import '../styles/porfotlio.css';
 
 const projects = [
   { title: "Project 1", image: "/path/to/image1.png", deployedLink: "https://example.com", githubLink: "https://github.com" },
