@@ -3,8 +3,8 @@ import Navigation from './navigation';
 import '../styles/header.css';
 
 const Header = () => (
-  <header>
-    <h1>Developer's Name</h1>
+  <header className="header">
+    <h1 className="header-title">Amanda Gipson</h1>
     <Navigation />
   </header>
 );

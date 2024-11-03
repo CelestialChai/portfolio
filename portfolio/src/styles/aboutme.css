@@ -1,24 +1,64 @@
 .about-me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.about-me-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.about-me-text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #333;
+  padding: 0 1rem;
+}
+
+/* Medium screens (tablets and larger) */
+@media (min-width: 768px) {
+  .about-me {
     padding: 2rem;
-    background-color: #f9f9f9;
   }
 
+  .about-me-photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .about-me-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+/* Large screens (desktops) */
+@media (min-width: 1024px) {
   .about-me-content {
-    display: flex;
-    align-items: center;
     max-width: 800px;
-    gap: 2rem;
   }
 
   .about-me-photo {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
   }
 
   .about-me-text {
-    max-width: 600px;
+    font-size: 1.1rem; 
+    line-height: 1.75;
   }
+}

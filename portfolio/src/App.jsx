@@ -11,18 +11,19 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-          {/* Optionally, redirect or set up a default route */}
-          <Route path="/" element={<About />} /> {/* Default route to About */}
-        </Routes>
-      </main>
-      <Footer />
+      <div className="app-container">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/" element={<About />} /> 
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }

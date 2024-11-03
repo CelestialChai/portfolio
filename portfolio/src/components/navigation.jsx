@@ -3,11 +3,31 @@ import { NavLink } from 'react-router-dom';
 import '../styles/navigation.css';
 
 const Navigation = () => (
-  <nav>
-    <NavLink to="/about">About Me</NavLink>
-    <NavLink to="/portfolio">Portfolio</NavLink>
-    <NavLink to="/contact">Contact</NavLink>
-    <NavLink to="/resume">Resume</NavLink>
+  <nav className="nav">
+    <NavLink
+      to="/about"
+      className={({ isActive }) => (isActive ? 'active' : '')}
+    >
+      About Me
+    </NavLink>
+    <NavLink
+      to="/portfolio"
+      className={({ isActive }) => (isActive ? 'active' : '')}
+    >
+      Portfolio
+    </NavLink>
+    <NavLink
+      to="/contact"
+      className={({ isActive }) => (isActive ? 'active' : '')}
+    >
+      Contact
+    </NavLink>
+    <NavLink
+      to="/resume"
+      className={({ isActive }) => (isActive ? 'active' : '')}
+    >
+      Resume
+    </NavLink>
   </nav>
 );
 

@@ -8,8 +8,8 @@ const Resume = () => {
     <section className="resume">
       <h2>Resume</h2>
       <p>
-        <a href="your-resume-url.pdf" target="_blank" rel="noopener noreferrer" className="resume-download">
-          Download Resume
+        <a href="/resume.pdf" download className="resume-download">
+          Download My Resume
         </a>
       </p>
       <h3>Proficiencies</h3>
