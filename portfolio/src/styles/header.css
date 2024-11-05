@@ -1,67 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 .header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  background-color: #333;
+  padding: 1rem 2rem;
+
+  /* Add a blue gradient background */
+  background-image: linear-gradient(135deg, #000000, #0e0336);
   color: white;
+
+  /* Add a white border at the bottom for an outline effect */
+  border-bottom: 3px solid #ffffff;
+
+  /* Alternatively, add a box-shadow for a softer outline effect */
+  /* box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.3); */
 }
 
+/* Header Title */
 .header-title {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  font-family: 'Tangerine', cursive;
+  font-weight: 400;
   margin: 0;
-  text-align: center;
 }
 
-.nav {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
+/* Hamburger Icon */
+.hamburger {
+  display: none; /* Hidden on larger screens */
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
 }
 
-.nav a {
-  color: #ddd;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.9rem;
-  transition: color 0.3s;
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  transition: transform 0.3s;
 }
 
-.nav a:hover,
-.nav a.active {
-  color: #007bff;
-}
+/* Show hamburger only on mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
 
-/* Medium Screens (Tablets and Larger) */
-@media (min-width: 768px) {
   .header {
     flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-  }
-
-  .header-title {
-    font-size: 2rem;
-  }
-
-  .nav {
-    gap: 2rem;
-  }
-
-  .nav a {
-    font-size: 1rem;
-  }
-}
-
-/* Large Screens (Desktops) */
-@media (min-width: 1024px) {
-  .header-title {
-    font-size: 2.5rem;
-  }
-
-  .nav a {
-    font-size: 1.1rem; 
   }
 }

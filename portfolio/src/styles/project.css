@@ -13,18 +13,12 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-/* Project Image */
-.project img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-
 /* Project Title */
 .project h3 {
   font-size: 1.1rem;
   margin: 0.75rem;
   text-align: center;
+  color: black;
 }
 
 /* Project Links */

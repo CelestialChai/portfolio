@@ -1,10 +1,17 @@
+
 .nav {
-  display: flex;
-  flex-direction: column; /* Stack vertically on mobile */
+  display: none;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
 
+/* Show navigation when menu is open */
+.nav.open {
+  display: flex;
+}
+
+/* Links */
 .nav a {
   color: #ddd;
   text-decoration: none;
@@ -23,25 +30,15 @@
   padding-bottom: 0.25rem;
 }
 
-/* Medium Screens (Tablets and Larger) */
+/* Medium Screens*/
 @media (min-width: 768px) {
   .nav {
+    display: flex;
     flex-direction: row;
     gap: 1.5rem;
   }
 
   .nav a {
     font-size: 1.1rem;
-  }
-}
-
-/* Large Screens (Desktops) */
-@media (min-width: 1024px) {
-  .nav {
-    gap: 2rem;
-  }
-
-  .nav a {
-    font-size: 1.2rem;
   }
 }

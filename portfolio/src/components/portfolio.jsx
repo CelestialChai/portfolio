@@ -14,7 +14,7 @@ const projects = [
 
 const Portfolio = () => (
   <section>
-    <h2>Portfolio</h2>
+    <h2 className='project-portfolio'>Portfolio</h2>
     <div className="project-list">
       {projects.map((project, index) => (
         <Project key={index} {...project} />

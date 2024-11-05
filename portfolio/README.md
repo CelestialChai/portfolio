@@ -1,8 +1,36 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  # My Portfolio
 
-Currently, two official plugins are available:
+  ## Description
+  A portfolio used to showcase my web developer capabilities
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributions](#contributing)
+  - [Run Tests](#tests)
+  - [Questions](#questions)
+  - [License](#license)
+
+
+  ## Installation
+
+  npm install
+
+
+  ## Usage
+  Simply go to the live website and browse the different navigation tabs.
+
+  ## License
+  This project is licensed under the None license.
+
+  ## Contributing
+  Amanda G, Google Fonts
+
+  ## Tests
+
+  npm test
+
+
+  ## Questions
+  If you have any questions, you can find me on [GitHub](https://github.com/celestialchai) or contact me via email at 404chai@gmai.com.

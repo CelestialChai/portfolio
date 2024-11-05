@@ -27,13 +27,17 @@
   justify-content: center;
   list-style: none;
   padding: 0;
+  ;
+
 }
 
 .skills-list li {
   background-color: #f0f0f0;
   padding: 0.4rem 0.8rem;
   font-size: 0.9rem;
-  border-radius: 4px;
+  color: black;
+  border-radius: 4px 4px 10px ;
+  box-shadow: 0.2px 2px .5px #2a77c0
 }
 
 /* Medium Screens (Tablets and Larger) */

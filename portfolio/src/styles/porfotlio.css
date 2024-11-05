@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=PT+Serif+Caption:ital@0;1&display=swap');
+
 section {
   padding: 1.5rem;
   text-align: center;
@@ -5,7 +8,16 @@ section {
 
 h2 {
   font-size: 1.75rem;
+  font-family: "PT Serif Caption", serif;
+  font-weight: 400;
+  font-style: normal;
   margin-bottom: 1.5rem;
+}
+
+.project-portfolio {
+  font-size: 'PT Serif Caption', serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Project List (Grid) */
@@ -41,6 +53,9 @@ h2 {
 /* Project Title */
 .project h3 {
   font-size: 1.25rem;
+  font-family: "Gowun Dodum", serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 0.75rem;
   text-align: center;
 }

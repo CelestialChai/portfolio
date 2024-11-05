@@ -3,13 +3,16 @@
   bottom: 0;
   left: 0;
   width: 100vw;
-  height: 60px;
-  background-color: #333;
+  height: 30px;
+  background-image: linear-gradient(135deg, #000000, #0e0336);
   color: white;
+
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 0.5rem 0;
+  border-top: 3px solid #ffffff;
+
 }
 
 .footer a {
@@ -23,12 +26,11 @@
   color: #ffffff;
 }
 
-/* Medium screens (tablets and larger) */
+/* Medium screens */
 @media (min-width: 768px) {
   .footer {
     height: 70px;
     padding: 1rem 0;
-    justify-content: space-evenly;
   }
 
   .footer a {
@@ -36,7 +38,7 @@
   }
 }
 
-/* Large screens (desktops) */
+/* Large screens */
 @media (min-width: 1024px) {
   .footer {
     height: 80px;
