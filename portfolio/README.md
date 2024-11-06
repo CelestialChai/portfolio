@@ -25,12 +25,14 @@
   This project is licensed under the None license.
 
   ## Contributing
-  Amanda G, Google Fonts
+  Amanda G, Google Fonts, StackOverflow
 
   ## Tests
 
   npm test
 
 
-  ## Questions
+  ## Questions & Links
   If you have any questions, you can find me on [GitHub](https://github.com/celestialchai) or contact me via email at 404chai@gmai.com.
+  Github Repository [Link](https://github.com/CelestialChai/portfolio)
+  Deployed Site [Link]()
